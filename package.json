@@ -1,0 +1,34 @@
+{
+    "name": "toan",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon src/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/toantuy123451/node.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/toantuy123451/node/issues"
+    },
+    "homepage": "https://github.com/toantuy123451/node#readme",
+    "description": "",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "ejs": "^3.1.10",
+        "express": "^4.21.2",
+        "express-handlebars": "^8.0.1",
+        "express-session": "^1.18.1",
+        "morgan": "^1.10.0",
+        "mysql": "^2.18.1",
+        "mysql2": "^3.11.5",
+        "pug": "^3.0.3"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.9"
+    }
+}
